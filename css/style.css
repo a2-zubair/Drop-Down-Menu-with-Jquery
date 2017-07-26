@@ -1,0 +1,144 @@
+/* general css */
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color:#fff;
+}
+
+/* menu, submenu*/
+.menu{
+  background: #2c3e50;
+  position: fixed;
+  left: -285px;  /* start off behind the scenes */
+  width: 285px;
+  height: 100%;
+  color:#fff;
+}
+
+.accordion-menu{
+  width: 100%;
+}
+
+.dropdownlink {
+  cursor: pointer;
+  display: block;
+  padding: 3px 0px 3px 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 45px;
+  color: #fff;
+  position: relative;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.dropdownlink:hover{
+  background: #415161;
+}
+
+.dropdownlink i{
+  font-size:18px;
+  padding-right:15px;
+}
+
+.submenuItems{
+  background-color: #2574A9;
+  line-height: 45px;
+}
+
+.submenuItems li{
+  padding-left:15px;
+  border:1px solid #216898;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.submenuItems li:last-child{
+  border: none;
+}
+
+.submenuItems li:hover{
+  background-color: #6BB9F0;
+}
+
+.submenuItems a{
+  display:block;
+  padding: 5px 0px 5px 45px;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  width: 80px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+.plus{
+  margin-left: 117px;
+  font-size: 12px;
+}
+
+/* container */
+.container {
+  background-image: url('../img/meiying-ng-71590.jpg');
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.bigText, footer{
+  text-align: center;
+  position: relative;
+}
+
+.bigText{
+  font-size:75px;
+  color: white;
+  text-shadow:1px 2px 2px black;
+  top:100px;
+}
+
+footer{
+  font-size:14px;
+  top:100px;
+  color:#fff;
+  letter-spacing:0.1em;
+  text-transform:lowercase;
+}
+
+footer a:hover{
+  color:#1d5c87;
+}
